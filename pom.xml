@@ -81,7 +81,7 @@
 					<appName>simplechatonwebsocket</appName>
 					<processTypes>
 						<worker>
-							java $JAVA_OPTS -cp target/classes:target/dependency/* com.pepyachka.simplechat.SimplechatApplication
+							java $JAVA_OPTS -cp target/classes;target/dependency/* com.pepyachka.simplechat.SimplechatApplication
 						</worker>
 					</processTypes>
 				</configuration>
