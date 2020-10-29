@@ -1,1 +1,1 @@
-worker: java -jar target/simplechat-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+web: java -cp target/classes/:target/dependency/* com.pepyachka.simplechat.SimplechatApplication

@@ -86,8 +86,6 @@
 					</processTypes>
 				</configuration>
 			</plugin>
-
 		</plugins>
 	</build>
-
 </project>
